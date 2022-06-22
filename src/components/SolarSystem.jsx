@@ -1,6 +1,5 @@
 import React from 'react';
 import Planets from '../data/planets';
-import Missions from './Missions';
 import PlanetCard from './PlanetCard';
 import Title from './Title';
 
@@ -16,7 +15,6 @@ class SolarSystem extends React.Component {
             planetImage={ planet.image }
           />
         ))}
-        <Missions />
       </div>
     );
   }
