@@ -3,7 +3,7 @@ import React from 'react';
 class Missions extends React.Component {
   render() {
     return (
-      <div>Missions</div>
+      <div data-testid="missions">Missions</div>
     );
   }
 }
