@@ -1,0 +1,8 @@
+body {
+    /* background-image: url(../images/galaxia.jpg); */
+    /* background-repeat: no-repeat; */
+    background-color: rgb(64, 2, 64);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  };

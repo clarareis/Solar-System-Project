@@ -69,7 +69,7 @@ const Missions = [
     destination: 'Vênus',
   },
   {
-    name: 'MESSENGER',
+    name: 'Messenger',
     year: '2004',
     country: USA,
     destination: 'Mercúrio',

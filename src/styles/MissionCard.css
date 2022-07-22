@@ -1,0 +1,10 @@
+.cardmissions {
+    background-color: rgba(129, 113, 130, 0.2);
+    border-radius: 10%;
+    color: white;
+    text-align: center;
+  }
+  
+  .cardmissions:hover {
+    background-color: rgba(129, 113, 130, 0.5);
+  }

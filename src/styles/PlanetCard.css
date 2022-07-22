@@ -1,0 +1,29 @@
+/* .PlanetCard{
+  align-content: center;
+} */
+
+.planet-card p {
+  color: white;
+}
+
+.planets {
+    height: 15vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .planet-card {
+      animation: planet-card-spin infinite 20s linear;
+      align-items: center;
+      margin: auto;
+    }
+  }
+  
+  @keyframes planet-card-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }

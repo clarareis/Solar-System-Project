@@ -1,0 +1,16 @@
+#missions {
+    display: flex;
+    flex-direction: column;
+  }
+  
+#card-missions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 10px;
+  }
+  
+  .cardmissions {
+    flex: 1 15%;
+    padding: 10px;
+  }
